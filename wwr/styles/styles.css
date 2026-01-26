@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Lato", "Open Sans", sans-serif;
+    background-color: #4682B4;
+}
+
+#content { /* contains everything in body */
+    max-width: 1200px;
+    color: #2C2C87;
+    background-color: white;
+    margin: 40px auto;
+    text-align: center;
+
+    border-style: double;
+    border-width: 7px;
+    border-color: #2C2C87;
+}
+
+header {
+    background-color: #F7DC6F;
+    text-align: left;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+nav .navigation {
+    color: #2C2C87;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-style: solid;
+    border-color: #2C2C87;
+    border-width: 1px;
+
+   
+}
+
+nav .navigation:hover {
+    color: white;
+    background-color: #2C2C87;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#logo {
+    width: 100px;
+}
+
+#hero, #hero-box, #hero-img {
+    width: 100%
+}
+
+.card-img {
+    width: 50%;
+    border-style: inset;
+    border-color: #4682B4;
+    border-width: 5px;
+}
+
+.icon {
+    width: 75px;
+    height: 75px;
+}
+
+#title {
+    font-size: 3em;
+    color: #4682B4;
+    font-family: "Atma", "Brush Script MT";
+}
+
+main a, #hero a {
+    color: #2C2C87;
+    background-color: #F7DC6F;
+    text-decoration: none;
+    padding: 5px;
+    border-style: solid;
+    border-color: #2C2C87;
+    border-width: 1px;
+}
+
+main a:hover, #hero a:hover {
+    color: white;
+    background-color: #2C2C87;
+}
+
+main h2 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#background {
+    background-color: #2C2C87;
+    height: 350px;
+}
+
+.mountains {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.msg {
+    color: #F7DC6F;
+    background-color: #4682B4;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.msg a {
+    color: #2C2C87;
+    background-color: #F7DC6F;
+    text-decoration: none;
+    padding: 5px;
+    border-style: solid;
+    border-color: #2C2C87;
+    border-width: 1px;
+}
+
+.msg a:hover {
+    color: white;
+    background-color: #2C2C87;
+}
+
+footer {
+    text-align: left;
+    color: #2C2C87;
+    background-color: #F7DC6F;
+    padding-left: 10px;
+}
+
+footer a:visited {
+    text-align: left;
+    color: #2C2C87;
+    background-color: #F7DC6F;
+    text-decoration: none;
+}
+
+footer a {
+    color: #4682B4;
+    text-decoration: none;
+}
+
+.symbols {
+    width: 35px;
+    margin: 5px;
+}
+
+
+
+/* NOTES
+
+'*' formats every element
+
+.[class] {
+    used to format a 'class' given to any number of tags and is designated by a '.' in css   
+    'id' is for single use things, 'class' is for multi use things
+    'id' and 'class' are given higher specificity and therefore are always prioritized over formating to tags
+}
+
+only one thing can have an 'id' which is designated in css by '#'
+
+    UNITS
+        pixel: px (it is absolute so it will be the same size for everything)
+        percent: % (it will take up a specific percentage of the space it has)
+        : em (a multiplier based on the font-size of body)
+        : rem (a multiplier from a font-size of 16px)
+
+    BLOCK vs INLINE elements
+        - a block element will take all the space that it can based on the size of its parent
+        - inline will take the space they need and leave the rest open for other elements
+        - this can be tested by giveing everything a red border
+*/
