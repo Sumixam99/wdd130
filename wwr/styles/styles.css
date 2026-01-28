@@ -24,6 +24,9 @@ body {
 }
 
 header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    
     background-color: #F7DC6F;
     text-align: left;
     font-size: 18px;
