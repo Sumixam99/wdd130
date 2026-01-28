@@ -34,6 +34,9 @@ header {
 }
 
 nav .navigation {
+    display: flex;
+    justify-content: space-around;
+
     color: #2C2C87;
     text-decoration: none;
     font-size: 1.5em;
@@ -43,8 +46,6 @@ nav .navigation {
     border-style: solid;
     border-color: #2C2C87;
     border-width: 1px;
-
-   
 }
 
 nav .navigation:hover {
