@@ -2,6 +2,16 @@ img {
     width:50%;
 }
 
+#logo {
+    width:100px
+}
+
 h1 {
     font-size: 4em;
 }
+
+/*  background color: #B3C2F2 (light blue)
+    color: #735CDD (idigo blue)
+    color: #9000B3 (purple)
+    color: #7E007B (slightly redish purple)
+    text color: #37000A (dark red brown)
