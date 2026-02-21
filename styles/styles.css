@@ -167,8 +167,16 @@ table {
     border-collapse: collapse;
 }
 
+th {
+    background-color: #7E007B;
+}
+
+td {
+    background-color: #9000B3;
+}
+
 td, th {
-    border: 1px solid #9000B3;
+    border: 1px solid #37000A;
     padding: 3px;
 }
 
