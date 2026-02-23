@@ -22,13 +22,17 @@ a {
     text-decoration: none;
 }
 
+nav a {
+    color: #B3C2F2;
+}
+
 header {
     background-color: #735CDD;
 
     display: flex;
     flex-wrap: wrap;
 
-    border-bottom: 3px solid #7E007B;
+    border-bottom: 3px solid #37000A;
 }
 
 #logo {
@@ -60,6 +64,8 @@ nav a, .dropdown {
 
 nav a:hover, .dropdown:hover {
     background-color: #B3C2F2;
+
+    color: #37000A;
 }
 
 .dropdown {
@@ -67,7 +73,6 @@ nav a:hover, .dropdown:hover {
     overflow: auto;
 
     box-sizing: border-box;
-
 }
 
 .dropdown a {
@@ -80,7 +85,6 @@ nav a:hover, .dropdown:hover {
   background-color: #B3C2F2;
   box-shadow: 0px 8px 16px 0px #37000A;
   z-index: 1;
-
 }
 
 .dropdown-content a {
@@ -107,8 +111,12 @@ button {
     border: none;
     padding: 0;
     margin: 0;
-    color: #37000A;
+    color: inherit;
     cursor: pointer;
+}
+
+.ice-link {
+    color: #37000A;
 }
 
 main {
@@ -165,6 +173,8 @@ ul {
 
 table {
     border-collapse: collapse;
+
+    color: #B3C2F2;
 }
 
 th {
@@ -182,8 +192,8 @@ td, th {
 
 input {
     border: 1px solid #37000A;
-    background-color: #735CDD;
-    color: #37000A;
+    background-color: #9000B3;
+    color: #B3C2F2;
 
     padding: 5px;
 }
@@ -199,7 +209,7 @@ input {
 
 footer {
     background-color: #735CDD;
-    border-top: 3px solid #9000B3;
+    border-top: 3px solid #37000A;
 
     margin: 0;
 
