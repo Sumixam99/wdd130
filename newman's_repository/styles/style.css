@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Notable&family=Rum+Raisin&family=Shadows+Into+Light&display=swap');
+
+/* 
+COLORS:
+Primary - #EFF1ED
+Secondary - #373D20
+Accent 1 - #717744
+Accent 2 - #BCBD8B
+Accent 3 - #766153
+*/
+
+/* Universal Formating */
+body {
+    color: #373D20;
+    background-color: #766153;
+
+    font-family: 'Neuton';
+
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Notable';
+}
+
+h2 {
+    font-family: 'Rum Raisin';
+}
+
+h3 {
+    font-family: 'Shadows Into Light';
+}
+
+p {
+    margin: 0px;
+}
+
+img {
+    width: 10%;
+}
+
+/* Paralax */
+#parallax-wrapper {
+/* 1. Create the 3D space */
+height: 100vh;
+overflow-x: hidden;
+overflow-y: auto;
+perspective: 2px; /* Distance from the viewer */
+}
+
+#parallax-layer {
+width: 100%;
+
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+/* 2. Move the layer back and scale it up to fill the gap */
+/* translateZ(-1px) makes it move at half speed */
+transform: translateZ(-2px) scale(2);
+z-index: -1;
+}
+
+#background-image {
+/* background-image: url('images/BackGround.jpg'); */
+background-size: cover;
+background-position: center;
+height: 100%;
+}
+
+#background-image img {
+    width: 100%;
+}
+
+#content {
+width: 75%;
+margin: 0 auto;
+
+position: relative;
+background: white; /* Give content a background so it covers the image */
+margin-top: 5vh; /* Push content down to see the effect */
+}
+
+/* Nav Formating, both header and footer */
+header {
+    background-color: #F0F0F0;
+    margin: 0px;
+}
+
+footer {
+    background-color: #F0F0F0;
+    margin: 0px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.social {
+    width: 50px;
+}
+
+/* Main Formating */
+main{
+    background-color: #F0F0F0;
+    margin: 0px;
+}
+
+/* Hero Formating */
+#hero-img {
+    width: 100%;
+}
