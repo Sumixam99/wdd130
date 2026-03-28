@@ -18,13 +18,13 @@
 
             <div id="content">
 
-                <header id="home">
+                <header id="home" class="navigation">
                     <nav> <!-- most links are internal, they link to a spot on the page -->
-                        <a href="#home">
+                        <a class="logo_link" href="#home">
                             <img class="logo" src="images/LOGO.jpg"> <!-- logo -->
                         </a>
-                        <a href="#about">About Us</a>
-                        <a href="#donate">Donate</a>
+                        <a href="#about"><p>About Us</p></a>
+                        <a href="#about">Donate</a>
                         <a href="join.html">Register</a>
                         <a href="#activities">Activities</a>
                     </nav>
@@ -33,65 +33,78 @@
                 <main> <!-- Have the text in the <p> tags edited to make it more coherent -->
                     <div id="hero">
                         <img id="hero-img" src="images/Hero.jpeg">
-                        <h1>Outbound</h1>
-                        <h2>To leave the shadows, to wrestle fear, adventure onward, and find the world once again.</h2>
+                        <h1 id="hero-name">Outbound</h1>
+                        <h2 id="hero-tag">To leave the shadows, to wrestle fear, adventure onward, and find the world once again.</h2>
                     </div>
 
                     <div id="intro">
-                        <h3>Adventure</h3>
-                        <img src="images/HikingOption.jpg">
-                        <p>Being outside has proven to be an effective way to helping people with mental illnesses fight and heal.</p>
+                        <div id="adventure">
+                            <h3>Adventure</h3>
+                            <img src="images/HikingOption.jpg">
+                            <p>Being outside has proven to be an effective way to helping people with mental illnesses fight and heal.</p>
+                        </div>
 
-                        <h3>Overcome</h3>
-                        <img src="images/RockClimb.JPG">
-                        <p>There will be activities that will help you or your kids help overcome their challenges in a loving and a hopful way.</p>
+                        <div id="overcome">
+                            <h3>Overcome</h3>
+                            <img src="images/RockClimb.JPG">
+                            <p>There will be activities that will help you or your kids help overcome their challenges in a loving and a hopful way.</p>
+                        </div>
 
-                        <h3>Explore</h3>
-                        <img src="images/GreatView.JPG">
-                        <p></p>
+                        <div id="Explore">
+                            <h3>Explore</h3>
+                            <img src="images/GreatView.JPG">
+                            <p>Help others by making a donation to overcome their fears and mental ilnesses by perchusing the gear neede for them to do so in a fun and safe enviroment outside.</p>
+                        </div>
                     </div>
 
                     <div id="goal">
-                        <img src="images/BeautifulNature.jpeg">
-                        <h2>Our Goal</h2>
-                        <p>To use nature and activities outside in nature to help people fight and overcome their mental illnesses by finding meaning in the world of the outside. Wether that is through rock climbing, camping, backpacking, repaling, or even bird watching.</p>
+                        <img src="images/BeautifulNature.png">
+                        <div>
+                            <h2>Our Goal</h2>
+                            <p>To use nature and activities outside in nature to help people fight and overcome their mental illnesses by finding meaning in the world of the outside. Wether that is through rock climbing, camping, backpacking, repaling, or even bird watching.</p>
+                        </div>
 
-                        <button>
-                            <a href="join.html">JOIN</a>
-                        </button> <!-- What does the join button do? -->
+                        <a href="join.html">JOIN</a>
                     </div>
 
-                    <div id="donate">
-                        <div id="about">
-                            <img src="images/BakcPacking.JPEG">
+                    <div id="about">
+                        <img src="images/BakcPacking.JPEG">
+                        <div>
                             <h2>About Us</h2>
                             <p>We are a non profit organisation to use our skills and abilites to help those with mental ilnesses fight off what prevents people form enjoying life. We hope to engage with our cliants and provide a safe and adventures way of opening doors to cures to their illnesse through life outside their home.</p>
                         </div>
-
-                    
-                        <button>DONATE</button>
+                
+                        <a>DONATE</a>
                     </div>
 
                     <div id="activities">
                         <h2>Activities</h2>
 
-                        <img src="images/RockClimbOption3.jpeg">
-                        <p>Rock climbing helps people do something scary in a sage and controlled environemtn to help people see in theirself what they are capable of.</p>
+                        <div>
+                            <img src="images/RockClimbOption3.jpeg">
+                            <p>Rock climbing helps people do something scary in a sage and controlled environemtn to help people see in theirself what they are capable of.</p>
+                        </div>
 
-                        <img src="images/BackPacking.JPG">
-                        <p>Bakcpacking allows for peace and a preteation of life outside the city while enjoying the beauty of the world around them.</p>
+                        <div>
+                            <img src="images/BackPacking.JPG">
+                            <p>Bakcpacking allows for peace and a preteation of life outside the city while enjoying the beauty of the world around them.</p>
+                        </div>
 
-                        <img src="images/Hiking.JPG">
-                        <p>Hiking can be done every day and anyone can get into it. This allows for anyone to overcome fear and has been studied to help with deprestion.</p>
+                        <div>
+                            <img src="images/Hiking.JPG">
+                            <p>Hiking can be done every day and anyone can get into it. This allows for anyone to overcome fear and has been studied to help with deprestion.</p>
+                        </div>
 
-                        <img src="images/Camping.jpeg">
-                        <p>Camping is also cheap and easy to get into and can be done anywhere. This helps people gain a feeling of control of the environment around them which helps people lower their depression and anxioty.</p>
+                        <div>
+                            <img src="images/Camping.jpeg">
+                            <p>Camping is also cheap and easy to get into and can be done anywhere. This helps people gain a feeling of control of the environment around them which helps people lower their depression and anxioty.</p>
+                        </div>
                     </div>
                 </main>
 
                 <footer>
                     <nav> <!-- most links are internal, they link to a spot on the page -->
-                        <a href="#home">
+                        <a class="logo_link" href="#home">
                             <img class="logo" src="images/LOGO.jpg"> <!-- logo -->
                         </a>
                         <a href="#about">About Us</a>
@@ -99,15 +112,17 @@
                         <a href="join.html">Register</a>
                         <a href="#activities">Activities</a>
 
-                        <a>
-                            <img class="social" src="images/social/facebook.png"> <!-- Facebook -->
-                        </a>
-                        <a>
-                            <img class="social" src="images/social/instagram.png"> <!-- Instagram -->
-                        </a>
-                        <a>
-                            <img class="social" src="images/social/twitter.png"> <!-- Twitter -->
-                        </a>
+                        <div id="media">
+                            <a class="social_link">
+                                <img class="social" src="images/social/facebook.png"> <!-- Facebook -->
+                            </a>
+                            <a class="social_link">
+                                <img class="social" src="images/social/instagram.png"> <!-- Instagram -->
+                            </a>
+                            <a class="social_link">
+                                <img class="social" src="images/social/twitter.png"> <!-- Twitter -->
+                            </a>
+                        </div>
                     </nav>
                 </footer>
 
