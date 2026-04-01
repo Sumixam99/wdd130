@@ -1,3 +1,0 @@
-many of the <p> tags have text that isn't written well, how should i edit them?
-
-index.html line 42: how is this applicable to the explore header?
